@@ -1,2 +1,2 @@
-# TS
-Titanic solution
+# Titanic solution
+## Table of content
