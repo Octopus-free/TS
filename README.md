@@ -1,4 +1,5 @@
 # Titanic solution
+[Blog link](https://medium.com/@ivashkinrg/my-score-will-go-on-bb251216ae78)
 ## Table of Contents
 1. Import Data and necessary packages
 2. Getting information about Data
