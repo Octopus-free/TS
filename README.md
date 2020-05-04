@@ -14,15 +14,18 @@
 5. Preprocess the Data an fit Random Forest Classifier
 6. Preprocess test Data and predict
 
+
 ## Import Data and necessary packages.
 
 In this part on the notebook I've just import necessary packages.
+
 
 ## Getting information about Data.
 
 Grab the information from the dataset to know:
 * how many rows, columns on it;
 * has the dataset null, categorical values.
+
 
 ## Handling null data.
 
@@ -41,4 +44,18 @@ The distribution of surviving second-class passengers depends on the price of th
 ### Third class passengers.
 Similar to operations with second-class passengers.
 
+
 ## Handling categorical data.
+Convert categorical to numerical values using one-hot-encoding.
+### Change data types to numerical.
+I set the dictionary with labels and then applied Map function.
+### One-hot encoding
+Using Pandas get_dummies function to realize one-hot-encoding.
+
+
+## Preprocess the Data an fit Random Forest Classifier.
+I standardized features using Sklearn package and fit sklearn random forest classifier.
+
+
+## Preprocess test Data and predict.
+Standardized features in the test dataset and predicted the targets.
