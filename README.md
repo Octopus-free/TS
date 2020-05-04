@@ -32,5 +32,13 @@ This part consist of five subtopics:
 - then handling the null vlues in Cabin column to the each passenger class.
 ### Remove data that can not be filled.
 I drop the rows which contain null values in columns Cabin and Fare.
-### Transform deck description
+### Transform deck description.
 Сutting all the characters except the first one, allows me to quickly collect statistics on decks.
+### First class passengers.
+The distribution of first-class surviving passengers is the most implicit. Here, I simply determined the deck with the largest number of surviving passengers and filled in Cabin column.
+### Second class passengers.
+The distribution of surviving second-class passengers depends on the price of the ticket and, as a consequence, the deck. I set several conditions when filling in Cabin column.
+### Third class passengers.
+Similar to operations with second-class passengers.
+
+## Handling categorical data.
